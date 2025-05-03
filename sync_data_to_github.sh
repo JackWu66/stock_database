@@ -14,9 +14,21 @@ find "$LOG_DIR" -name "push_log_*.txt" -mtime +7 -delete
 # === Git 自動同步 ===
 cd /Users/jack/Desktop/GitHub/stock-data-public || exit
 
+# 確保 remote 是正確的
+git remote set-url origin https://github.com/JackWu66/stock-data-public.git
+
 # 顯示狀態
 echo "Checking Git status..." >> "$LOG_FILE"
 git status >> "$LOG_FILE" 2>&1
+
+# 檢查遠端儲存庫配置，確保指向正確的儲存庫
+REMOTE_URL=$(git remote get-url origin)
+EXPECTED_URL="https://github.com/JackWu66/stock-data-public.git"  # 替換成你的正確儲存庫URL
+
+if [ "$REMOTE_URL" != "$EXPECTED_URL" ]; then
+    echo "Error: The remote repository URL is incorrect. Expected $EXPECTED_URL but got $REMOTE_URL" >> "$LOG_FILE"
+    exit 1
+fi
 
 # 加入變更
 echo "Adding all changes..." >> "$LOG_FILE"

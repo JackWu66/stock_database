@@ -14,6 +14,9 @@ find "$LOG_DIR" -name "push_log_*.txt" -mtime +7 -delete
 # === Git 自動同步 ===
 cd /Users/jack/Desktop/GitHub/Stock || exit
 
+# 確保 remote 是正確的
+git remote set-url origin https://github.com/JackWu66/Stock.git
+
 # 顯示狀態
 git status >> "$LOG_FILE" 2>&1
 
