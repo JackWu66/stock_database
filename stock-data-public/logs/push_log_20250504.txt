@@ -19,3 +19,48 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 Adding all changes...
+Pulling latest from origin...
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Pushing changes to GitHub...
+fatal: unable to access 'https://github.com/JackWu66/stock-data-public.git/': Recv failure: Connection reset by peer
+Restoring stashed changes...
+error: Your local changes to the following files would be overwritten by merge:
+	stock-data-public/logs/push_log_20250504.txt
+Please commit your changes or stash them before you merge.
+Aborting
+On branch main
+Your branch is ahead of 'origin/main' by 8 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ../.DS_Store
+	modified:   ../Stock (modified content)
+	modified:   .DS_Store
+	modified:   logs/push_log_20250504.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The stash entry is kept in case you need it again.
+Checking Git status...
+On branch main
+Your branch is ahead of 'origin/main' by 8 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ../.DS_Store
+	modified:   ../Stock (new commits, modified content)
+	modified:   .DS_Store
+	modified:   logs/push_log_20250504.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../logs/push_log_20250504.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Adding all changes...
