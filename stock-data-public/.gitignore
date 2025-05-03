@@ -1,2 +1,4 @@
 nano .gitignore
 logs/*.DS_Store
+logs/
+*.DS_Store
