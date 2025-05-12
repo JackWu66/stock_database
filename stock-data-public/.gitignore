@@ -5,3 +5,4 @@ auto_push.sh
 logs/
 Stock/
 
+.DS_Store
