@@ -126,3 +126,19 @@ Changes to be committed:
  1 file changed, 19 insertions(+)
 To https://github.com/JackWu66/stock_database.git
    56129c0..7ab4421  main -> main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250513.txt
+	deleted:    23001.parquet
+	deleted:    latest_10_days_all_stocks.parquet
+	deleted:    stock_id_list.parquet
+
+[main 374bee0] Force sync .parquet files on 2025-05-13 01:10:02
+ 4 files changed, 12 insertions(+)
+ delete mode 100644 stock-data-public/23001.parquet
+ delete mode 100644 stock-data-public/latest_10_days_all_stocks.parquet
+ delete mode 100644 stock-data-public/stock_id_list.parquet
+fatal: could not read Username for 'https://github.com': Device not configured
