@@ -216,3 +216,17 @@ To https://github.com/JackWu66/stock_database.git
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250513.txt
+
+[main 7ea6260] Force sync .parquet files on 2025-05-13 07:01:18
+ 1 file changed, 16 insertions(+)
+To https://github.com/JackWu66/stock_database.git
+   d1480a4..7ea6260  main -> main
+rm 'stock-data-public/23001.parquet'
+rm 'stock-data-public/latest_10_days_all_stocks.parquet'
+rm 'stock-data-public/stock_id_list.parquet'
