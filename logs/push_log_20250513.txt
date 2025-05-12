@@ -1,24 +1,3 @@
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   ../Stock (new commits)
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	../auto_data_update
-	../auto_data_update.sh
-	../auto_push.sh
-	../logs/
-
-no changes added to commit (use "git add" and/or "git commit -a")
-No changes to commit.
-rm 'stock-data-public/23001.parquet'
-rm 'stock-data-public/latest_10_days_all_stocks.parquet'
-rm 'stock-data-public/stock_id_list.parquet'
