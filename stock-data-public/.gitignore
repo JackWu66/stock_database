@@ -1,2 +1,5 @@
 .DS_Store
+auto_data_update/
+auto_data_update.sh
+auto_push.sh
 logs/
