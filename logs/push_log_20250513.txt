@@ -259,3 +259,22 @@ To https://github.com/JackWu66/stock_database.git
    73fdb3f..7c3ecc3  main -> main
 
 === 執行時間：2025-05-13 07:06:24 ===
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250513.txt
+	deleted:    23001.parquet
+	deleted:    latest_10_days_all_stocks.parquet
+	deleted:    stock_id_list.parquet
+
+[main 7d53c56] Force sync .parquet files on 2025-05-13 07:07:09
+ 4 files changed, 13 insertions(+)
+ delete mode 100644 stock-data-public/23001.parquet
+ delete mode 100644 stock-data-public/latest_10_days_all_stocks.parquet
+ delete mode 100644 stock-data-public/stock_id_list.parquet
+To https://github.com/JackWu66/stock_database.git
+   7c3ecc3..7d53c56  main -> main
+
+=== 執行時間：2025-05-13 07:07:09 ===
