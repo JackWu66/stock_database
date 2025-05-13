@@ -1,3 +1,16 @@
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../Stock
+	modified:   ../logs/push_log_20250513.txt
+	new file:   ../logs/push_log_20250514.txt
+
+[main 1f91487] Force sync .parquet files on 2025-05-14 01:28:03
+ 3 files changed, 42 insertions(+), 1 deletion(-)
+ create mode 100644 logs/push_log_20250514.txt
+fatal: could not read Username for 'https://github.com': Device not configured
