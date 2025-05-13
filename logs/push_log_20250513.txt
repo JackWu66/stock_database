@@ -517,3 +517,20 @@ fatal: could not read Username for 'https://github.com': Device not configured
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250513.txt
+
+[main bec224a] Force sync .parquet files on 2025-05-13 12:07:31
+ 1 file changed, 16 insertions(+)
+To https://github.com/JackWu66/stock_database.git
+   885c0d1..bec224a  main -> main
+
+=== 執行時間：2025-05-13 12:07:31 ===
+rm 'stock-data-public/23001.parquet'
+rm 'stock-data-public/latest_10_days_all_stocks.parquet'
+rm 'stock-data-public/stock_id_list.parquet'
