@@ -14,3 +14,23 @@ Changes to be committed:
  3 files changed, 42 insertions(+), 1 deletion(-)
  create mode 100644 logs/push_log_20250514.txt
 fatal: could not read Username for 'https://github.com': Device not configured
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250514.txt
+	deleted:    23001.parquet
+	deleted:    latest_10_days_all_stocks.parquet
+	deleted:    stock_id_list.parquet
+
+[main a5f1c42] Force sync .parquet files on 2025-05-14 07:17:03
+ 4 files changed, 13 insertions(+)
+ delete mode 100644 stock-data-public/23001.parquet
+ delete mode 100644 stock-data-public/latest_10_days_all_stocks.parquet
+ delete mode 100644 stock-data-public/stock_id_list.parquet
+To https://github.com/JackWu66/stock_database.git
+   b24ec6c..a5f1c42  main -> main
+
+=== 執行時間：2025-05-14 07:17:03 ===
