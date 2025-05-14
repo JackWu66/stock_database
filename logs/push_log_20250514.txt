@@ -519,3 +519,23 @@ Changes to be committed:
  1 file changed, 14 insertions(+)
 To https://github.com/JackWu66/stock_database.git
    0ff8dfe..ab62025  main -> main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250514.txt
+	deleted:    23001.parquet
+	deleted:    latest_10_days_all_stocks.parquet
+	deleted:    stock_id_list.parquet
+
+[main a8ad675] Force re-add .parquet files on 2025-05-14 23:59:01
+ 4 files changed, 11 insertions(+)
+ delete mode 100644 stock-data-public/23001.parquet
+ delete mode 100644 stock-data-public/latest_10_days_all_stocks.parquet
+ delete mode 100644 stock-data-public/stock_id_list.parquet
+To https://github.com/JackWu66/stock_database.git
+   ab62025..a8ad675  main -> main
+⚠️ 找不到檔案：/Users/jack/Desktop/GitHub/stock-data-public/23001.parquet
+⚠️ 找不到檔案：/Users/jack/Desktop/GitHub/stock-data-public/latest_10_days_all_stocks.parquet
+⚠️ 找不到檔案：/Users/jack/Desktop/GitHub/stock-data-public/stock_id_list.parquet
