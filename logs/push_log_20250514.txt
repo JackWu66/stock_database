@@ -389,3 +389,34 @@ To https://github.com/JackWu66/stock_database.git
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250514.txt
+
+[main f4b2fba] Force sync .parquet files on 2025-05-14 14:17:32
+ 1 file changed, 17 insertions(+)
+To https://github.com/JackWu66/stock_database.git
+   8b8b986..f4b2fba  main -> main
+
+=== 執行時間：2025-05-14 14:17:32 ===
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../logs/push_log_20250514.txt
+	modified:   23001.parquet
+	modified:   latest_10_days_all_stocks.parquet
+	modified:   stock_id_list.parquet
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[main 05f993c] Auto sync on 2025-05-14 17:00:01
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+rm 'stock-data-public/23001.parquet'
+rm 'stock-data-public/latest_10_days_all_stocks.parquet'
+rm 'stock-data-public/stock_id_list.parquet'
