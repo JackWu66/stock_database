@@ -73,3 +73,19 @@ To https://github.com/JackWu66/stock_database.git
    fd315bf..96aefb2  main -> main
 
 === 執行時間：2025-05-14 08:47:08 ===
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250514.txt
+
+[main 48cf658] Force sync .parquet files on 2025-05-14 09:17:10
+ 1 file changed, 13 insertions(+)
+To https://github.com/JackWu66/stock_database.git
+   96aefb2..48cf658  main -> main
+
+=== 執行時間：2025-05-14 09:17:10 ===
+fatal: pathspec '23001.parquet' did not match any files
+fatal: pathspec 'latest_10_days_all_stocks.parquet' did not match any files
+fatal: pathspec 'stock_id_list.parquet' did not match any files
