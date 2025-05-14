@@ -494,3 +494,17 @@ rm 'stock-data-public/23001.parquet'
 fatal: pathspec '23001.parquet' did not match any files
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20250514.txt
+
+[main 0ff8dfe] Force re-add .parquet files on 2025-05-14 23:42:45
+ 1 file changed, 15 insertions(+)
+To https://github.com/JackWu66/stock_database.git
+   c6b43d1..0ff8dfe  main -> main
+rm 'stock-data-public/23001.parquet'
+rm 'stock-data-public/latest_10_days_all_stocks.parquet'
+rm 'stock-data-public/stock_id_list.parquet'
