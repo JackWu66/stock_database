@@ -1,0 +1,3 @@
+fatal: pathspec '23001.parquet' did not match any files
+fatal: pathspec 'latest_10_days_all_stocks.parquet' did not match any files
+fatal: pathspec 'stock_id_list.parquet' did not match any files
