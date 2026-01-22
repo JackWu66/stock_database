@@ -29,3 +29,24 @@ fatal: could not read Username for 'https://github.com': Device not configured
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20260123.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ../Stock (modified content)
+
+[main 77e7f85] Force re-add .parquet files on 2026-01-23 00:27:42
+ 1 file changed, 28 insertions(+)
+To https://github.com/JackWu66/stock_database.git
+   71bc931..77e7f85  main -> main
+rm 'stock-data-public/23001.parquet'
+rm 'stock-data-public/latest_10_days_all_stocks.parquet'
+rm 'stock-data-public/stock_id_list.parquet'
