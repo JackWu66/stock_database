@@ -551,3 +551,39 @@ No changes to commit.
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   ../logs/push_log_20260115.txt
+	new file:   ../logs/push_log_20260116.txt
+	new file:   ../logs/push_log_20260117.txt
+	new file:   ../logs/push_log_20260118.txt
+	new file:   ../logs/push_log_20260119.txt
+	new file:   ../logs/push_log_20260120.txt
+	new file:   ../logs/push_log_20260121.txt
+	new file:   ../logs/push_log_20260122.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ../Stock (modified content)
+
+[main ab2bc4f] Force sync .parquet files on 2026-01-22 23:16:12
+ 8 files changed, 3585 insertions(+)
+ create mode 100644 logs/push_log_20260115.txt
+ create mode 100644 logs/push_log_20260116.txt
+ create mode 100644 logs/push_log_20260117.txt
+ create mode 100644 logs/push_log_20260118.txt
+ create mode 100644 logs/push_log_20260119.txt
+ create mode 100644 logs/push_log_20260120.txt
+ create mode 100644 logs/push_log_20260121.txt
+ create mode 100644 logs/push_log_20260122.txt
+To https://github.com/JackWu66/stock_database.git
+   925874b..ab2bc4f  main -> main
+rm 'stock-data-public/23001.parquet'
+rm 'stock-data-public/latest_10_days_all_stocks.parquet'
+rm 'stock-data-public/stock_id_list.parquet'
