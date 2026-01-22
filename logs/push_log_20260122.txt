@@ -625,3 +625,26 @@ Changes not staged for commit:
  2 files changed, 20 insertions(+)
 To https://github.com/JackWu66/stock_database.git
    3cc76a5..59604e5  main -> main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../logs/push_log_20260122.txt
+	deleted:    23001.parquet
+	deleted:    latest_10_days_all_stocks.parquet
+	deleted:    stock_id_list.parquet
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ../Stock (modified content)
+
+[main 2b18210] Force sync .parquet files on 2026-01-22 23:17:54
+ 4 files changed, 18 insertions(+)
+ delete mode 100644 stock-data-public/23001.parquet
+ delete mode 100644 stock-data-public/latest_10_days_all_stocks.parquet
+ delete mode 100644 stock-data-public/stock_id_list.parquet
+To https://github.com/JackWu66/stock_database.git
+   59604e5..2b18210  main -> main
