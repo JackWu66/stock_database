@@ -71,3 +71,21 @@ To https://github.com/JackWu66/stock_database.git
 rm 'stock-data-public/23001.parquet'
 rm 'stock-data-public/latest_10_days_all_stocks.parquet'
 rm 'stock-data-public/stock_id_list.parquet'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ../.DS_Store
+	modified:   ../logs/push_log_20260123.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ../Stock (modified content)
+
+[main 515df6c] Force re-add .parquet files on 2026-01-23 00:48:47
+ 2 files changed, 21 insertions(+)
+To https://github.com/JackWu66/stock_database.git
+   f6e456b..515df6c  main -> main
